@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Product Landing Page</title>
+    <link rel="stylesheet" href="p.css">
+</head>
+
+<body bgcolor="#faa7dd">
+    <header>
+        <div class="container">
+            <h1>Fashionista</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>New Summer Collection</h2>
+            <p>Discover the latest trends in our summer collection.</p>
+            <button onclick="scrollToSection('products')">Shop Now</button>
+        </div>
+    </section>
+
+    <section id="products">
+        <div class="container">
+            <h2>Featured Products</h2>
+            <div class="product">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjb1tcwTEmXCV1VYtBryFxNcu2KJw6nwK6LA&s" alt="Dress">
+                <h3>Summer Dress</h3>
+                <p>$49.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://putra.in/cdn/shop/files/MONSOON_SALE_1600x.jpg?v=1690711161"alt="Shirt">
+                <h3>Casual Shirt</h3>
+                <p>$29.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://png.pngtree.com/thumb_back/fw800/background/20231014/pngtree-denim-ensemble-against-a-rustic-wooden-surface-image_13660674.png" alt="Jeans">
+                <h3>Skinny Jeans</h3>
+                <p>$39.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <!-- Add more products as needed -->
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Fashionista is your go-to store for the latest trends in fashion. We offer a wide range of clothing for all occasions. Our mission is to provide high-quality, stylish apparel at affordable prices.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Fashionista. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="p.js"></script>
+</body>
+
+</html>
